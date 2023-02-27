@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnsorMed</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT AWESOME link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/main.min.css"> -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- HEADER START -->
+    <header>
+        <div class="header-container container">
+            <a class="navbar-logo" href="index.html">
+                <img
+                  class="navbar-img"
+                  src="img/logo-icon.svg"
+                  alt="logo-icon"
+                  width="50"
+                  height="50"
+                />
+                AnsorMed
+            </a>
+              <!-- <div class="header-flex"> -->
+            <nav class="navbar" id="navbar">
+                  <ul class="navbar-list">
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-item__link"> Xizmatlar </a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-item__link"> Dorilar </a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-item__link"> Asal </a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-item__link"> Kontaktlar </a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#" class="navbar-item__link"> Blog </a>
+                    </li>
+                  </ul>
+            </nav>
+          <a class="nav-btn btn navbar-btn" href="#sign_up">
+            Qabulga yozilish
+          </a>
+          <div class="toggle-btn" onclick="myFunction();">
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+          </div>
+            <!-- </div> -->
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main>
+      <!-- HERO SECTION START -->
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-textBox">
+            <h1 class="hero__heading">
+              Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.
+            </h1>
+            <p class="hero__text">
+              Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p
+              uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni
+              o’z ishining professionallariga ishonib topshiring.
+            </p>
+            <a class="btn navbar-btn hero__btn" href="#sign_up">
+              Qabulga yozilish
+            </a>
+          </div>
+          <img
+            class="hero-img"
+            src="img/hero-img.png"
+            alt="hero-img"
+            width="423"
+            height="504"
+          />
+        </div>
+      </section>
+      <!-- HERO SECTION END -->
+
+      <!-- SERVIC SECTION START -->
+      <section>
+        <div class="servic-container container">
+          <h2 class="servic-heading">Xizmatlar</h2>
+          <ul class="servic-list">
+            <li class="servic-item">
+              <img
+                class="servic-item__img"
+                src="img/intro-img.png"
+                alt="intro-img"
+                width="200"
+                height="200"
+              />
+              <div>
+                <h2 class="servic-item__heading">Hijoma</h2>
+                <p class="servic-item__text">
+                  Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat
+                  qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar:
+                  «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19
+                  va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar
+                  kunlaridir).
+                </p>
+              </div>
+            </li>
+            <li class="servic-item" id="servic-item">
+              <img
+                class="servic-item__img"
+                src="img/intro2-img.png"
+                alt="intro2-img"
+                width="200"
+                height="200"
+              />
+              <div>
+                <h2 class="servic-item__heading">Manual terapiya</h2>
+                <p class="servic-item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  ac metus placerat, pellentesque enim ac, rhoncus lectus.
+                  Maecenas et posuere lorem. Fusce sed massa sit amet elit
+                  viverra hendrerit.
+                </p>
+              </div>
+            </li>
+            <li class="servic-item" id="servic-item">
+              <img
+                class="servic-item__img"
+                src="img/intro3-img.png"
+                alt="intro3-img"
+                width="200"
+                height="200"
+              />
+              <div>
+                <h2 class="servic-item__heading">Zuluk bilan davolash</h2>
+                <p class="servic-item__text">
+                  Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία —
+                  «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo
+                  medicinalis) yordamida davolash usuli. Fizioterapevtik
+                  muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar
+                  ushbu kichik sinf chuvchalchanglariga oid yagona tur
+                  hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.
+                </p>
+              </div>
+            </li>
+            <li class="servic-item servic-mb" id="servic-item">
+              <img
+                class="servic-item__img"
+                src="img/intro4-img.png"
+                alt="intro4-img"
+                width="200"
+                height="200"
+              />
+              <div>
+                <h2 class="servic-item__heading">Tabiiy dori vositalari</h2>
+                <p class="servic-item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  ac metus placerat, pellentesque enim ac, rhoncus lectus.
+                  Maecenas et posuere lorem. Fusce sed massa sit amet elit
+                  viverra hendrerit.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="servic-btn">
+            <a class="btn navbar-btn" href="#sign_up"> Qabulga yozilish </a>
+          </div>
+        </div>
+      </section>
+      <!-- SERVIC SECTION END -->
+
+      <!-- SIGN_UP SECTION START -->
+      <section id="sign_up" class="sign_up hero">
+        <div class="container">
+          <h2 class="sign_up__heading servic-heading">
+            Qabulga ro'yxatdan o'ting
+          </h2>
+          <div class="servic-btn sign-btn">
+            <a class="btn navbar-btn sign_up-btn" href="tel:+998901716106">
+              Qo'ng'iroq qilish
+            </a>
+            <a
+              class="btn navbar-btn sign_up-btn"
+              href="https://t.me/ansormed"
+              target="blank"
+            >
+              Telegramdan yozish
+            </a>
+          </div>
+        </div>
+        <!-- <div class="sign_up-icon__circle" id="sign_up-icon__circle">
+          <i class="fa-solid fa-caret-up"></i>
+        </div> -->
+      </section>
+      <!-- SIGN_UP SECTION START -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="header-container container footer-container">
+        <a class="navbar-logo footer-logo" href="index.html">
+          <img
+            class="navbar-img footer-img"
+            src="img/logo-icon.svg"
+            alt="logo-icon"
+            width="50"
+            height="50"
+          />
+          AnsorMed
+        </a>
+        <div class="header-flex">
+            <ul class="footer-list">
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link">
+                  Xizmatlar
+                </a>
+              </li>
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link"> Dorilar </a>
+              </li>
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link"> Asal </a>
+              </li>
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link">
+                  Kontaktlar
+                </a>
+              </li>
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link"> Blog </a>
+              </li>
+              <li class="navbar-item footer-item">
+                <a href="#" class="navbar-item__link footer-link">
+                  Doktorlar
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
